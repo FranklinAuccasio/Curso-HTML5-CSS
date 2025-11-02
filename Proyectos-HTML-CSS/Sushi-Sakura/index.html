@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Sushi Sakura</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/f25bf37414.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Sakura</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h2>Bienvenidos al Sushi Sakura</h2>
+      <p>La mejor experiencia gastronomica</p>
+      <a href="#menu" class="btn">Ver menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <h2>Nuestro Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="img/sushi1.jpeg" alt="sushi mix">
+        <h3>Sushi Mix</h3>
+        <p>Seleccion variada de nigiris y makis</p>
+        <span class="precio">$28.00</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/sushi2.jpeg" alt="sushi mix">
+        <h3>Sushi Mix</h3>
+        <p>Seleccion variada de nigiris y makis</p>
+        <span class="precio">$28.00</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="img/sushi3.jpeg" alt="sushi mix">
+        <h3>Sushi Mix</h3>
+        <p>Seleccion variada de nigiris y makis</p>
+        <span class="precio">$28.00</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="reservas" class="reservas-section">
+    <h2>Reserva tu mesa</h2>
+    <form class="reserva-form">
+      <input type="text" placeholder="Nombre Completo" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Telefono" required>
+      <input type="date" required>
+      <input type="time" required>
+      <select>
+        <option value="">Numero de personas</option>
+        <option value="1">1 persona</option>
+        <option value="2">2 persona</option>
+        <option value="3">3 persona</option>
+        <option value="4">4 persona</option>
+        <option value="5">+5 persona</option>
+      </select>
+      <button type="submit" class="btn">Reservar</button>
+    </form>
+  </section>
+
+  <section id="contacto" class="contacto-section">
+    <h2>Contacto</h2>
+    <div class="contacto-info">
+      <div>
+        <i class="fas fa-map-marker-alt"></i>
+        <p>Calle Principal 123, Lima</p>
+      </div>
+
+      <div>
+        <i class="fas fa-phone"></i>
+        <p>123 456 789</p>
+      </div>
+
+      <div>
+        <i class="fas fa-envelope"></i>
+        <p>info@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Sushi Sakura. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
