@@ -22,10 +22,11 @@ nav {
   margin: 0 auto;
 }
 
-.logo {
+.logo a{
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
+  text-decoration: none;
 }
 
 .nav-links {

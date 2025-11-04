@@ -36,6 +36,10 @@ nav {
   color: #ff0000;
 }
 
+.logo a {
+  text-decoration: none;
+}
+
 .nav-links {
   display: flex;
   list-style: none;
